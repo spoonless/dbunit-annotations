@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<table name="fellowship">
+		<column>firstName</column>
+		<column>lastName</column>
+		<column>betrayer</column>
+		<row>
+			<value>Frodo</value>
+			<value>Baggins</value>
+			<value>false</value>
+		</row>
+		<row>
+			<null />
+			<value>Gandalf</value>
+			<value>false</value>
+		</row>
+		<row>
+			<value>Boromir</value>
+			<null />
+			<value>true</value>
+		</row>
+	</table>
+</dataset>

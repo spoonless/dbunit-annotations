@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<table name="fellowship">
+		<column>firstName</column>
+		<column>lastName</column>
+		<column>betrayer</column>
+		<row>
+			<value>Sam</value>
+			<value>Gamegie</value>
+			<value>false</value>
+		</row>
+		<row>
+			<null />
+			<value>Strider</value>
+			<value>false</value>
+		</row>
+	</table>
+</dataset>
