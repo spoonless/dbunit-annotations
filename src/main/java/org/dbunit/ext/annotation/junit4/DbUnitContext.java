@@ -10,9 +10,9 @@ import org.dbunit.ext.annotation.DatabaseTesterResolver;
 import org.dbunit.ext.annotation.DbUnitAnnotationException;
 import org.dbunit.ext.annotation.TestContext;
 import org.junit.Rule;
-import org.junit.internal.runners.model.MultipleFailureException;
 import org.junit.rules.MethodRule;
 import org.junit.runners.model.FrameworkMethod;
+import org.junit.runners.model.MultipleFailureException;
 import org.junit.runners.model.Statement;
 
 /**

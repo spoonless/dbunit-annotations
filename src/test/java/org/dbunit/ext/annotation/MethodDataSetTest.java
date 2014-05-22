@@ -2,14 +2,13 @@ package org.dbunit.ext.annotation;
 
 import java.io.InputStream;
 
-import junit.framework.Assert;
-
 import org.dbunit.IDatabaseTester;
 import org.dbunit.database.IDatabaseConnection;
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.ITable;
 import org.dbunit.dataset.xml.XmlDataSet;
 import org.dbunit.ext.annotation.junit4.DbUnitRunner;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 

@@ -13,7 +13,7 @@ public abstract class AbstractSampleTestCase {
 
 	@BeforeClass
 	public static void createTable() throws Exception {
-		executeStatement("CREATE TABLE fellowship (firstName CHAR(50), lastName CHAR(50), betrayer BOOLEAN)");
+		executeStatement("CREATE TABLE fellowship (firstName VARCHAR(50), lastName VARCHAR(50), betrayer BOOLEAN)");
 	}
 
 	@AfterClass
